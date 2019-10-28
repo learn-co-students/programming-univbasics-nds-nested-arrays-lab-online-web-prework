@@ -1,0 +1,29 @@
+shelf_1 = ["Mace", "Ginger", "Marojam"]
+shelf_2 = ["Paprika", "Fajita Mix", "Coriander"]
+shelf_3 = ["Parsley", "Sage", "Rosemary"]
+ 
+spice_rack = [
+  shelf_1,
+  shelf_2,
+  shelf_3,
+
+
+
+
+
+
+spice_rack_pretty = [
+  ["Mace", "Ginger", "Marojam"],
+  ["Paprika", "Fajita Mix", "Coriander"],
+  ["Parsley", "Sage", "Rosemary"]
+]
+
+spice_rack[0] #=>  ["Mace", "Ginger", "Marojam"]
+spice_rack[0][1] #=> "Ginger"
+spice_rack[1][1] #=> "Fajita Mix"
+
+
+
+spice_rack[1][1] #=> "Fajita Mix" (it's not really a spice)
+spice_rack[1][1] = "Cumin" #=> "Cumin"
+spice_rack[1][1] #=> "Cumin"
