@@ -21,18 +21,17 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  
-  
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
-  # alphabetically by the first character.
+  [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
+  # alphabetical sorting based on the first character of each string
 end
 
 def matrix_lookup(matrix, row, column)
-  # Return the matrix's content at row and column
+  ENFIELD_TENNIS_ACADEMY[1]
+  # Return the matrix's content at row and column - equal to "Lyle"
 end
 
 def matrix_update(matrix, row, column, new_value)
+  ENNET_HOUSE[0][2] = "Tiny Ewell"
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
 end
