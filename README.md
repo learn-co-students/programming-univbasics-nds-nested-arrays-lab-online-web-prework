@@ -1,20 +1,4 @@
-# Nested Arrays Lab
-
-## Learning Goals
-
-1. Recognize vocabulary term: "array of array" or ("AoA")
-2. Recognize that "arrays of arrays" are grids or coordinate systems
-3. Create a nested `Array`
-4. Read scalar data from an array of arrays
-5. Modify scalar data in an array of arrays
-
-## Introduction
-
-### Key Image: Coordinate Grid
-
-To help you when reading the rest of this lesson, keep in mind that an Array of
-Arrays (or a matrix) is well expressed by a ***grid***. Here are some examples
-to get your mind ready.
+our mind ready.
 
 Think about those vending machines where you select the item you want by
 finding its coordinates and entering them in on a keypad.
